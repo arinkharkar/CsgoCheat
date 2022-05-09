@@ -1,0 +1,16 @@
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\bin\Debug\net5.0\TrojanCondom.exe
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\bin\Debug\net5.0\TrojanCondom.deps.json
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\bin\Debug\net5.0\TrojanCondom.runtimeconfig.json
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\bin\Debug\net5.0\TrojanCondom.runtimeconfig.dev.json
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\bin\Debug\net5.0\TrojanCondom.dll
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\bin\Debug\net5.0\ref\TrojanCondom.dll
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\bin\Debug\net5.0\TrojanCondom.pdb
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.AssemblyInfoInputs.cache
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.AssemblyInfo.cs
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.csproj.CoreCompileInputs.cache
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.dll
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\ref\TrojanCondom.dll
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.pdb
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.genruntimeconfig.cache
+C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Trojan\Trojan\obj\Debug\net5.0\TrojanCondom.csproj.AssemblyReference.cache
