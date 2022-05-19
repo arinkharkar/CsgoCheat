@@ -67,9 +67,9 @@ Vector3 GetBonePosition(DWORD EntityPtr, int BoneIndex)
 {
 	DWORD BoneMatrixPtr = RPM<DWORD>(EntityPtr + m_dwBoneMatrix);
 	Vector3 bonePos;
-	bonePos.x = RPM<float>(BoneMatrixPtr + 0x30 * BoneIndex + 0x0C);
-	bonePos.y = RPM<float>(BoneMatrixPtr + 0x30 * BoneIndex + 0x1C);
-	bonePos.z = RPM<float>(BoneMatrixPtr + 0x30 * BoneIndex + 0x2C);
+	bonePos.x = RPM<float>((BoneMatrixPtr + 0x30) * (BoneIndex + 0x0C));
+	bonePos.y = RPM<float>((BoneMatrixPtr + 0x30) * (BoneIndex + 0x1C));
+	bonePos.z = RPM<float>((BoneMatrixPtr + 0x30) * (BoneIndex + 0x2C));
 	return bonePos;
 }
 
@@ -144,17 +144,29 @@ void startAimbot() {
 		if (_closestEnm != MAXUINT32 && _closestEnm != 0) {
 			
 			Vector3 headPos = GetBonePosition(_closestEnm, 8);
-
-			Vector3 deltaVec = headPos - GetPlayerLocation(cheatdata.localPlayer);
+			
+			std::cout << (headPos - GetPlayerLocation(_closestEnm)).x << '\n';
+			std::cout << (headPos - GetPlayerLocation(_closestEnm)).y << '\n';
+			std::cout << (headPos - GetPlayerLocation(_closestEnm)).z << '\n';
+			Vector3 deltaVec = GetPlayerLocation(_closestEnm) - GetPlayerLocation(cheatdata.localPlayer);
 
 			float dist = deltaVec.GetLength();
 
 			float pitch = -asin(deltaVec.z / dist) * (180/PI);
+			float yaw = atan2(deltaVec.y, deltaVec.x) * (180/PI);
 
-			
 
-			std::cout << RPM<float>(moduledata.engineBase + dwClientState_ViewAngles);
+			uintptr_t clientState = RPM<DWORD>(moduledata.engineBase + dwClientState);
 
+			if (pitch < -89 || pitch > 89) {
+				return;
+			}
+			if (yaw < -179 || yaw > 179) {
+				return;
+			}
+
+			WPM<float>(clientState + dwClientState_ViewAngles, pitch);
+			WPM<float>(clientState + dwClientState_ViewAngles + sizeof(float), yaw);
 			/*vm = RPM<view_matrix_t>(moduledata.moduleBase + dwViewMatrix);
 
 			Vector3 pos = GetPlayerLocation(_closestEnm);

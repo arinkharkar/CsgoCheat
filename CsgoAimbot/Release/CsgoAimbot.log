@@ -1,54 +1,8 @@
 ﻿  Aimbot.cpp
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Aimbot.cpp(1,9): warning C4616: #pragma warning: warning number '804870' not a valid compiler warning
-  Antiflash.cpp
-  Bunnyhop.cpp
-  ClanTagChanger.cpp
-  Data.cpp
-  Draw.cpp
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(19,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(19,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(19,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(19,11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(20,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(20,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(20,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(20,11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(21,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(21,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(21,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(21,11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(22,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(22,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(22,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Draw.cpp(22,11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  LegitAimbot.cpp
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\LegitAimbot.cpp(26,54): warning C4806: '&': unsafe operation: no value of type 'T' promoted to type 'int' can equal the given constant
-          with
-          [
-              T=bool
-          ]
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\LegitAimbot.cpp(47,54): warning C4806: '&': unsafe operation: no value of type 'T' promoted to type 'int' can equal the given constant
-          with
-          [
-              T=bool
-          ]
-  Main.cpp
-  Player.cpp
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Player.cpp(60,54): warning C4806: '&': unsafe operation: no value of type 'T' promoted to type 'int' can equal the given constant
-          with
-          [
-              T=bool
-          ]
-C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\CsgoAimbot\Player.cpp(81,54): warning C4806: '&': unsafe operation: no value of type 'T' promoted to type 'int' can equal the given constant
-          with
-          [
-              T=bool
-          ]
-  SkinChanger.cpp
-  Wallhack.cpp
+C:\Users\manji\source\repos\Csgo-Cheat\CsgoAimbot\Aimbot.cpp(1,9): warning C4616: #pragma warning: warning number '804870' not a valid compiler warning
   Generating code
-  29 of 189 functions (15.3%) were compiled, the rest were copied from previous compilation.
+  2 of 191 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    6 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  CsgoAimbot.vcxproj -> C:\Users\Arin\Documents\Code\Cpp\CsgoAimbot\Release\CsgoAimbot.exe
+  CsgoAimbot.vcxproj -> C:\Users\manji\Source\Repos\Csgo-Cheat\Release\CsgoAimbot.exe
